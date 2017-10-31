@@ -1,6 +1,12 @@
 {
-  "name": "bitstamp-api-wrapper",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+    "name": "bitstamp-api-wrapper",
+    "version": "0.1.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "bluebird": "^3.5.1",
+        "intel": "^1.2.0",
+        "lodash": "^4.17.4",
+        "superagent": "^3.8.0"
+    }
 }
