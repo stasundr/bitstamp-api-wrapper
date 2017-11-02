@@ -1,7 +1,7 @@
-const common = require('./lib/common');
+const private = require('./lib/private');
 const ticker = require('./lib/ticker');
 const transactions = require('./lib/transactions');
 
-module.exports.Common = common;
+module.exports.Private = private;
 module.exports.Ticker = ticker;
 module.exports.Transactions = transactions;
