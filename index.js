@@ -55,14 +55,11 @@ class Bitstamp {
         this._registerCall();
         return await Private.balance.bind(this)(currencyPair);
     }
+
+    async userTransactions(currencyPair, offset, limit) {
+        this._registerCall();
+        return await Private.userTransactions.bind(this)(currencyPair, offset, limit);
+    }
 }
 
 module.exports = Bitstamp;
-
-const B = new Bitstamp();
-B.balance()
-    .then(x => console.log(x))
-    .catch(e => {
-        console.log('bivaet');
-    });
-B.close();
