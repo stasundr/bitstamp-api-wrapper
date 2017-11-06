@@ -5,7 +5,7 @@
     "license": "MIT",
     "dependencies": {
         "bluebird": "^3.5.1",
-        "dotenv-safe": "^4.0.4",
+        "dotenv": "^4.0.0",
         "intel": "^1.2.0",
         "lodash": "^4.17.4",
         "superagent": "^3.8.0"

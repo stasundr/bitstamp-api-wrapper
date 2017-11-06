@@ -11,9 +11,9 @@ const MAX_CALL_WINDOW = 60 * 1000; // 10 minutes
 const MAX_CALLS_PER_WINDOW = 60;
 
 class Bitstamp {
-    constructor() {
+    constructor(key, secret, clientId) {
         this.callsInLastMinute = 0;
-        this.signature = new Signature();
+        this.signature = new Signature(key, secret, clientId);
 
         this._intv = setInterval(() => {
             this.callsInLastMinute = 0;
