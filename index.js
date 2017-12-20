@@ -45,9 +45,9 @@ class Bitstamp {
         return await Ticker.getCurrentPrice(currencyPair);
     }
 
-    async transactions(currencyPair) {
+    async transactions(currencyPair, time) {
         this._registerCall();
-        return await Transactions.list(currencyPair);
+        return await Transactions.list(currencyPair, time);
     }
 
     // PRIVATE FUNCTIONS
