@@ -7,7 +7,7 @@
     "bluebird": "3.5.1",
     "dotenv": "4.0.0",
     "intel": "1.2.0",
-    "lodash": "4.17.19",
+    "lodash": "4.17.21",
     "superagent": "3.8.0"
   }
 }
